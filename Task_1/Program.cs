@@ -15,7 +15,7 @@ namespace Task_1
             string [] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
             foreach (string file in files)
             {
-                Console.WriteLine(file);
+                Console.WriteLine(file); 
             }
             Console.ReadKey();
         }
